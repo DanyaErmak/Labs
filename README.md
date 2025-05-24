@@ -14,4 +14,4 @@
 5.	На Доску пригласить по ссылке не менее 3 одногруппников и Преподавателя (почта преподавателя lev0678@yandex.ru ).
  В выбранных карточках организовать ссылки на внешние документы; организовать список заданий в виде чек-листа.
 
-   - **Решение:** [Тут](https://github.com/DanyaErmak/Labs/blob/dfbbba2c43e5b88f18bc09b616375bd5c4e4c86e/lab1)
+   - **Решение:** [Тут](https://danyaermak08.kaiten.ru/space/554626/boards)Или вот [здесь](https://github.com/DanyaErmak/Labs/blob/dfbbba2c43e5b88f18bc09b616375bd5c4e4c86e/lab1) на гитхабе
