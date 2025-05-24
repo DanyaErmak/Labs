@@ -1,0 +1,251 @@
+\documentclass{beamer}
+
+\usetheme{Berkeley}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{array}
+\usepackage{lmodern}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\setbeamertemplate{sidebar left}{%
+  \vfill
+}
+
+\definecolor{myblue}{RGB}{15,93,159}      
+\definecolor{myorange}{RGB}{255,140,0}
+\definecolor{mygray}{RGB}{245,245,245}
+\definecolor{mydarkgray}{RGB}{60,60,60}
+\definecolor{mygreen}{RGB}{34,139,34}
+\definecolor{frametitlefg}{RGB}{230,230,230} 
+
+\setbeamercolor{title}{fg=myorange}
+\setbeamercolor{frametitle}{bg=myblue,fg=frametitlefg}
+\setbeamercolor{section in sidebar}{fg=white,bg=myorange}
+\setbeamercolor{section in sidebar shaded}{fg=myorange}
+\setbeamercolor{normal text}{fg=mydarkgray,bg=white}
+\setbeamercolor{item}{fg=myorange}
+\setbeamercolor{block title}{bg=myorange,fg=white}
+\setbeamercolor{block body}{bg=mygray,fg=black}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\setbeamertemplate{frametitle}{
+  \nointerlineskip
+  \vspace*{0pt}
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.8ex,dp=1.2ex,leftskip=12pt,rightskip=12pt]{frametitle}
+    \usebeamerfont{frametitle}\insertframetitle
+  \end{beamercolorbox}
+  \vspace*{0pt}
+}
+
+\setbeamertemplate{blocks}[rounded][shadow=true]
+
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1ex,right]{footline}%
+      \usebeamerfont{footline}\insertframenumber{} / \inserttotalframenumber\hspace{10pt}
+    \end{beamercolorbox}%
+  }
+  \vskip0pt%
+}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=mygreen,
+    linkcolor=myorange,
+    citecolor=myblue,
+}
+
+
+\title{История Орловского государственного университета им. И.С. Тургенева.}
+\author{Ермаков Даниил}
+\institute{41МО}
+\date{4 мая 2025}
+
+\begin{document}
+
+% Титульный слайд
+\begin{frame}[plain]
+\begin{tikzpicture}[remember picture,overlay]
+  \shade[left color=myblue!80, right color=myorange!90]
+    (current page.south west) rectangle (current page.north east);
+\end{tikzpicture}
+
+\vfill
+\begin{center}
+  {\color{white}\Huge\bfseries \inserttitle\par}
+  \vspace{1em}
+  {\color{white}\Large \insertauthor\par}
+  \vspace{0.5em}
+  {\color{white}\large \insertinstitute\par}
+  \vspace{1em}
+  {\color{white}\large \insertdate\par}
+\end{center}
+\vfill
+\end{frame}
+
+\begin{frame}[t]
+  \frametitle{Начало}
+  \begin{itemize}
+    \item Дата основания - 5 августа 1931 года
+  \end{itemize}
+
+  %\vfill
+
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{Огу 1931.jpg}
+  \end{center}
+
+  \vspace{-0.5cm}
+  \begin{center}
+    {\footnotesize Индустриально-педагогический институт}
+  \end{center}
+\end{frame}
+
+%\section{Введение}
+
+\begin{frame}[t]
+  \frametitle{1950 год}
+      \begin{center}
+    \includegraphics[width=0.9\linewidth]{огу 1950.jpg}
+  \end{center}
+
+  \vspace{-0.3cm}
+  \begin{center}
+    {\footnotesize Орловский педагогический институт}
+  \end{center}
+\end{frame}
+
+\begin{frame}[t]
+  \frametitle{Нынешнее время}
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{огу.jpg}
+  \end{center}
+  \vspace{-0.2em}
+  \begin{center}
+        \footnotesize{Орловский государственный университет им. И.С. Тургенева}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}[t]
+  \frametitle{Ректоры}
+  \begin{columns}[t]
+    \begin{column}{0.6\textwidth}
+      \small
+      \raggedright
+       \vspace{-3em}
+      \setlength{\leftmargini}{5pt}
+      \begin{itemize}
+        \item 1949—1954 гг. - С.И. Ефремов
+        \item 1954—1978 гг. - Г.М. Михалёв
+        \item 1978—1988 гг. - Н.С. Антонов
+        \item 1989—1992 гг. - С.А. Пискунов
+        \item 1992—2013 гг. -  Ф.С. Авдеев
+        \item 1994—2013 гг. - В.А. Голенков
+        \item 2014—2015 гг. - (и. о.) В.Ф. Ницевич
+        \item 2015—2017 гг. - (и. о.) О.В. Пилипенко
+        \item 2019—2021 гг. - (и. о.) А.А. Федотов
+        \item 2021—2024 гг. -  А. А. Федотов
+        \item 2025 г. - (и.о) Г.М. Зомитева
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+      \begin{center}
+      \vspace{-2em}
+        \includegraphics[width=1\linewidth]{зомитева.jpg}
+      \end{center}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+
+\begin{frame}{Структура университета(1/5)}
+\centering
+\setlength{\tabcolsep}{10pt} % отступы между колонками
+
+\begin{tabular}{ >{\RaggedRight\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{4.5cm} >{\RaggedRight\arraybackslash}p{4.5cm} }
+\textbf{Физико-математический факультет} & \textbf{Художественно-графический факультет} \\
+\includegraphics[height=2.7cm]{физ-мат.jpg} & \includegraphics[height=2.7cm]{худграф.jpg} \\
+\textbf{Исторический факультет} & \textbf{Юридический институт} \\
+\includegraphics[height=2.7cm]{истфак.jpg} & \includegraphics[height=2.7cm]{юристы.jpg} \\
+\end{tabular}
+
+\end{frame}
+
+\begin{frame}{Структура университета(2/5)}
+\centering
+\setlength{\tabcolsep}{10pt} % отступы между колонками
+
+\begin{tabular}{ >{\RaggedRight\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{4.5cm} >{\RaggedRight\arraybackslash}p{4.5cm} }
+\textbf{ИПАИТ} & \textbf{Философский факультет} \\
+\includegraphics[height=2.7cm]{ИПАИТ(1).png} & \includegraphics[height=2.7cm]{философский.jpg} \\
+\textbf{Институт филологии} & \textbf{Архитектурно-строительный} \\
+\includegraphics[height=2.7cm]{филологический.png} & \includegraphics[height=2.7cm]{АСИ.jpg} \\
+\end{tabular}
+
+\end{frame}
+
+\begin{frame}{Структура университета(3/5)}
+\centering
+\setlength{\tabcolsep}{10pt} % отступы между колонками
+
+\begin{tabular}{ >{\RaggedRight\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{4.5cm} >{\RaggedRight\arraybackslash}p{4.5cm} }
+\textbf{Институт иностранных языков} & \textbf{Медицинский институт} \\
+\includegraphics[height=2.5cm]{иняз1.jpg} & \includegraphics[height=2.7cm]{мед.jpg} \\
+\textbf{Институт заочного и очно-заочного образования} & \textbf{Институт педагогики и психологии} \\
+\includegraphics[height=2.7cm]{институт очки-заочки и заочки.jpg} & \includegraphics[height=2.7cm]{ИПИП.jpg} \\
+\end{tabular}
+
+\end{frame}
+
+\begin{frame}{Структура университета(4/5)}
+\centering
+\setlength{\tabcolsep}{10pt} % отступы между колонками
+
+\begin{tabular}{ >{\RaggedRight\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{4.5cm} >{\RaggedRight\arraybackslash}p{4.5cm} }
+\textbf{Факультет среднего образования} & \textbf{Институт естественных наук и биотехнологии} \\
+\includegraphics[height=2.7cm]{Среднее.jpg} & \includegraphics[height=2.7cm]{ИЕНИБ.jpg} \\
+\textbf{Институт экономики и управлени} & \textbf{Институт педагогики и психологии} \\
+\includegraphics[height=2.5cm]{экономика и управление.jpg} & \includegraphics[height=2.7cm]{ИПИП.jpg} \\
+
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Структура университета(5/5)}
+\centering
+\setlength{\tabcolsep}{10pt}
+
+\begin{tabular}{ >{\RaggedRight\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{4.5cm} >{\RaggedRight\arraybackslash}p{4.5cm} }
+\textbf{Факультет подготовки иностранных обучающихся} & \textbf{Факультет технологии, предпринимательства и сервиса} \\
+\includegraphics[height=2.7cm]{Иностранцы.jpg} & \includegraphics[height=2.7cm]{технологии предпримательство и сервис.jpg} \\
+\textbf{Факультет физической культуры и спорта} \\
+\includegraphics[height=2.5cm]{физра.png} \\
+
+\end{tabular}
+\end{frame}
+
+
+\begin{frame}[plain]
+\begin{tikzpicture}[remember picture,overlay]
+  \fill[left color=blue!80, right color=cyan!40] (current page.south west) rectangle (current page.north east);
+  \fill[white,opacity=0.15] (current page.south west) .. controls +(2,2) and +(1,-1) .. +(6,6) -- (current page.south west);
+\end{tikzpicture}
+\vfill
+\begin{center}
+  {\usebeamerfont{title}\color{white}\Huge\bfseries Спасибо за внимание!}\\[1.5em]
+  \tikz{\draw[white, thick, rounded corners=2pt] (0,0) -- (5,0);}
+\end{center}
+\vfill
+\end{frame}
+
+\end{document}
